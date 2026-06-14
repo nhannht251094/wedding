@@ -45,9 +45,6 @@ export default function App() {
 
   return (
     <div className="app-shell">
-      <a className="skip-link" href="#gallery">
-        Skip to gallery
-      </a>
       <Hero photos={photos} isLoading={isLoading} />
       <main>
         <Gallery photos={photos} isLoading={isLoading} error={error} />

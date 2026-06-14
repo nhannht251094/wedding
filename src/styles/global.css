@@ -34,24 +34,6 @@ button {
   overflow: hidden;
 }
 
-.skip-link {
-  position: fixed;
-  z-index: 100;
-  top: 16px;
-  left: 16px;
-  padding: 10px 14px;
-  border-radius: 999px;
-  color: #11100d;
-  background: #f7f2ea;
-  text-decoration: none;
-  transform: translateY(-140%);
-  transition: transform 180ms ease;
-}
-
-.skip-link:focus {
-  transform: translateY(0);
-}
-
 .app-shell {
   position: relative;
   min-height: 100vh;
@@ -88,7 +70,6 @@ button {
   pointer-events: none;
 }
 
-.skip-link,
 .hero,
 .gallery-section,
 .site-footer {
@@ -125,12 +106,6 @@ button {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 900;
   letter-spacing: 0.08em;
-}
-
-.hero__links {
-  display: flex;
-  gap: clamp(18px, 3vw, 44px);
-  color: rgba(247, 242, 234, 0.5);
 }
 
 .hero__content {
@@ -764,10 +739,6 @@ button {
 
   .hero__nav {
     top: 20px;
-  }
-
-  .hero__links {
-    display: none;
   }
 
   .hero h1 {

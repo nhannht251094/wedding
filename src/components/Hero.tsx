@@ -32,12 +32,7 @@ export default function Hero({ photos, isLoading }: HeroProps) {
       <div className="botanical botanical--hero-left" aria-hidden="true" />
       <div className="botanical botanical--hero-right" aria-hidden="true" />
       <nav className="hero__nav" aria-label="Wedding gallery sections">
-        <span className="hero__brand">T&A</span>
-        <div className="hero__links" aria-hidden="true">
-          <span>Story</span>
-          <span>Archive</span>
-          <span>Moments</span>
-        </div>
+        <span className="hero__brand">N&T</span>
       </nav>
       <div className="hero__content fade-in">
         <span className="hero__pill">Wedding archive</span>
